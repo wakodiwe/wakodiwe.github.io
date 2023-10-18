@@ -1,0 +1,30 @@
+body {
+    background: #e5e4e2;
+}
+
+#gefaess {
+    margin: 59px auto;
+    text-align: center;
+}
+
+#gefaess input#suche { 
+    font-size: 25px;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    text-align: center;
+    color: #000000;
+    transition: border-color 0.4s ease-out;
+    background: transparent;
+    outline: none;
+}
+
+#gefaess input#suche::placeholder {
+    color: #000000;
+    transition: opacity 0.26s ease-in-out;
+}
+
+#gefaess input#suche:focus::placeholder {
+    opacity: 0;
+}
