@@ -1,0 +1,27 @@
+:root {
+  --dark-fg: #66a4a4;
+  --dark-bg: #191919;
+  --light-fg: #3b8891;
+  --light-bg: #eeeeee;
+}
+
+body {
+  padding: 12px;
+  font: 19px monospace, monospace;
+  background: var(--light-bg);
+  color: var(--light-fg);
+}
+
+#focus {
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--dark-fg);
+}
+.dark {
+  background-color: var(--dark-bg);
+}
+
+.dark #focus {
+  color: var(--dark-fg);
+}
+
