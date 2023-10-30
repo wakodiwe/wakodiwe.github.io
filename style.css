@@ -1,3 +1,4 @@
+
 :root {
   --dark-fg: #66a4a4;
   --dark-bg: #191919;
@@ -8,8 +9,8 @@
 body {
   padding: 12px;
   font: 19px monospace, monospace;
-  background: var(--light-bg);
-  color: var(--light-fg);
+  background: var(--dark-bg);
+  color: var(--dark-fg);
 }
 
 #focus {
@@ -17,11 +18,11 @@ body {
   cursor: pointer;
   color: var(--dark-fg);
 }
-.dark {
-  background-color: var(--dark-bg);
+.light {
+  background-color: var(--light-bg);
 }
 
-.dark #focus {
-  color: var(--dark-fg);
+.light #focus {
+  color: var(--light-fg);
 }
 

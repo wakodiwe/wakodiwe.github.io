@@ -1,17 +1,16 @@
 const toggle = document.getElementById("focus");
 const theme = window.localStorage.getItem("theme");
 
-if (theme === "dark") document.body.classList.add("dark");
+if (theme === "light") document.body.classList.add("light");
 
 toggle.addEventListener("click", toggleTheme);
 function toggleTheme() {
-  document.body.classList.toggle("dark");
-  if (theme === "dark") {
-    window.localStorage.setItem("theme", "light");
-  }
-  else {
+  document.body.classList.toggle("light");
+  if (theme === "light") {
     window.localStorage.setItem("theme", "dark");
   }
-  toggle.addEventListener("click", blur());
+  else {
+    window.localStorage.setItem("theme", "light");
+  }
 };
 
