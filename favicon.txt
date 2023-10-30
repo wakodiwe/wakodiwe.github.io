@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Sono
+- Font Author: Copyright 2020 The Sono Project Authors (https://github.com/sursly/sono)
+- Font Source: http://fonts.gstatic.com/s/sono/v6/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVNkKdEnR4qYeB4Q.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
