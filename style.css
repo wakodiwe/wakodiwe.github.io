@@ -49,6 +49,7 @@ p {
 a {
   color: var(--dark-fg);
   text-decoration: none;
+  padding-left: 15px;
 }
 .light a {
   color: var(--light-fg);
