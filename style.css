@@ -51,6 +51,9 @@ a {
   text-decoration: none;
   padding-left: 15px;
 }
+a#focus {
+  padding: 0;
+}
 .light a {
   color: var(--light-fg);
 }
