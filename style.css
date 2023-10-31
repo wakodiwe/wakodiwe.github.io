@@ -1,16 +1,25 @@
-
 :root {
   --dark-fg: #66a4a4;
+  --dark-fg2: #ffffff;
   --dark-bg: #191919;
   --light-fg: #3b8891;
+  --light-fg2: #000000;
   --light-bg: #eeeeee;
+}
+
+.light {
+  background-color: var(--light-bg);
 }
 
 body {
   padding: 12px;
-  font: 19px monospace, monospace;
+  font: 15px monospace, monospace;
   background: var(--dark-bg);
   color: var(--dark-fg);
+}
+
+header {
+  padding-bottom: 30px;
 }
 
 #focus {
@@ -18,11 +27,30 @@ body {
   cursor: pointer;
   color: var(--dark-fg);
 }
-.light {
-  background-color: var(--light-bg);
+.light #focus {
+  color: var(--light-fg);
 }
 
-.light #focus {
+#links {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+p {
+  margin: 0;
+  padding: 15px 0 0px;
+  color: var(--dark-fg2);
+  font-weight: bold;
+}
+.light p {
+  color: var(--light-fg2);
+}
+
+a {
+  color: var(--dark-fg);
+  text-decoration: none;
+}
+.light a {
   color: var(--light-fg);
 }
 
